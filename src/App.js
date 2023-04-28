@@ -1,24 +1,32 @@
-import logo from './logo.svg';
-import './App.css';
+import { useState } from "react";
+import "./App.css";
+import ReactPlayer from "react-player";
+import Home from "./Components/Home/Home";
+
 
 function App() {
+  const [vol, changeVol] = useState(1);
+  const [play, setplayback] = useState(false);
+  const [videostate, setvideostate] = useState("Play");
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+
+    <Home />
+    // <div className="App">
+    //   <ReactPlayer
+    //     url="https://youtu.be/uMuwKRKWSec"
+    //     volume={vol}
+    //     playing={play}
+    //   ></ReactPlayer>
+
+    //   <button
+    //     onClick={() => {
+    //       setplayback(!play);
+    //       setvideostate(play ? "Play" : "Pause");
+    //     }}
+    //   >
+    //     {videostate}
+    //   </button>
+    // </div>
   );
 }
 

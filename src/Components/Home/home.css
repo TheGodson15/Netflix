@@ -1,0 +1,152 @@
+.main-container {
+  background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url("../../assets/banner.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  
+}
+
+.logo {
+  width: 148px;
+  height: 40px;
+  margin-left: 230px;
+  margin-top: 30px;
+  cursor: pointer;
+}
+.buttons {
+  margin-top: 20px;
+  margin-right: 70px;
+  cursor: pointer;
+}
+.signin {
+  border: none;
+  background-color: red;
+  margin-left: 20px;
+  color: #fff;
+  border-radius: 5px;
+  width: 100px;
+  height: 30px;
+  font-weight: 700;
+  cursor: pointer;
+}
+select {
+  width: 90px;
+  height: 35px;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  background: transparent;
+  color: #fff;
+}
+.banner-text {
+  width: 750px;
+  margin-left: 150px;
+}
+.banner-text h1 {
+  color: #fff;
+  font-size: 80px;
+  margin-bottom: 0;
+}
+.banner-text h2 {
+  color: #fff;
+  font-size: 25px;
+  margin-top: 10px;
+}
+.banner-text h3 {
+  color: #fff;
+}
+.banner-inputs {
+  margin-left: 150px;
+}
+.email {
+  width: 400px;
+  height: 40px;
+  background-color: black;
+  color: #fff;
+  border: 2px solid grey;
+  opacity: 70%;
+  padding: 10px;
+  font-size: 24px;
+  margin-bottom: 150px;
+}
+.email::placeholder {
+  color: #fff;
+  
+}
+.getstarted {
+  background-color: red;
+  width: 200px;
+  height: 65px;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  margin-left: 20px;
+  border-radius: 5px;
+  font-size: 25px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.sub-cards{
+  background-color: black;
+  padding-bottom: 50px;
+}
+.cards-container{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    width: 95%;
+  
+}
+.cards{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgb(5, 1, 82) 0%, rgba(9,9,121,1) 70%, rgb(253, 46, 132) 100%);
+    width: 45vw;
+    height: 500px;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-left: 10px;
+    border-radius: 5px;
+    
+}
+.cards > img{
+    width: 60%;
+    height: 60%;
+    display: block;
+    margin: 20px auto;
+}
+.cards h2{
+    color: #fff;
+    width: 70%;
+    margin: 0 auto;
+}
+.cards h3{
+    color: #fff;
+    width: 70%;
+    margin: 20px auto;
+}
+.footer{
+  background-color: black;
+  border-top: 3px solid gray;
+  color: #fff;
+padding: 50px  220px;
+}
+.footer h2{
+  margin-bottom: 20px;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.footer .col{
+  margin-bottom: 40px;
+  display:inline-table;
+  padding-right: 234px;
+}
+.footer .col a{
+  display: block;
+  text-decoration: none;
+  color: #fff;
+  font-size: 15px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
