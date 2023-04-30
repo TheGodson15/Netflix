@@ -87,7 +87,7 @@ select {
   cursor: pointer;
 }
 
-.sub-cards{
+.sub-container{
   background-color: black;
   padding-bottom: 50px;
 }
@@ -127,7 +127,7 @@ select {
 }
 .footer{
   background-color: black;
-  border-top: 3px solid gray;
+  border-top: 7px solid #232222;
   color: #fff;
 padding: 50px  220px;
 }
@@ -149,4 +149,18 @@ padding: 50px  220px;
   font-size: 15px;
   margin-top: 20px;
   margin-bottom: 30px;
+}
+.sub-container h1{
+  color: #fff;
+  font-size: 2rem;
+  text-align: center;
+  border-top: 7px solid #232222;
+}
+.sub-container h2{
+  color: #fff;
+  text-align: center;
+  font-weight: normal;
+}
+.banner-inputs-below{
+  margin-left: 40px;
 }
